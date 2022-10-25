@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666655194254' stop='1666655223926'>
+    <name>Test telnyx Sing up page</name>
+    <title>Test telnyx Sing up page</title>
+    <test-cases>
+        <test-case start='1666655194255' status='passed' stop='1666655197402'>
+            <name>Test #15 logo</name>
+            <title>Test #15 logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655197402' status='passed' stop='1666655205091'>
+            <name>Test #16 check fields for validity</name>
+            <title>Test #16 check fields for validity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f5549967-53f5-4872-9e1d-9874b368aec1-attachment.png' type='image/png' size='766616'/>
+            </attachments>
+        </test-case>
+        <test-case start='1666655205093' status='passed' stop='1666655208082'>
+            <name>Test #17 Sing up with Google button</name>
+            <title>Test #17 Sing up with Google button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655208082' status='passed' stop='1666655212753'>
+            <name>Test #18 Sing up with Microsoft button</name>
+            <title>Test #18 Sing up with Microsoft button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655212754' status='passed' stop='1666655219871'>
+            <name>Test #19 Have a promo code button</name>
+            <title>Test #19 Have a promo code button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2a728181-c860-4933-be29-45020a9e8b39-attachment.png' type='image/png' size='82452'/>
+            </attachments>
+        </test-case>
+        <test-case start='1666655219872' status='passed' stop='1666655223926'>
+            <name>Test #20 Privacy policy</name>
+            <title>Test #20 Privacy policy</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

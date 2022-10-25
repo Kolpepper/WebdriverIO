@@ -1,0 +1,226 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666655100356' stop='1666655206638'>
+    <name>Test telnyx home page</name>
+    <title>Test telnyx home page</title>
+    <test-cases>
+        <test-case start='1666655100356' status='passed' stop='1666655102384'>
+            <name>Test #1 accept and close button</name>
+            <title>Test #1 accept and close button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655102384' status='passed' stop='1666655106743'>
+            <name>Test #2 Sing up button</name>
+            <title>Test #2 Sing up button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655106745' status='passed' stop='1666655110774'>
+            <name>Test #3 Talk to an expert button</name>
+            <title>Test #3 Talk to an expert button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655110774' status='passed' stop='1666655115844'>
+            <name>Test #4 Explore our products button</name>
+            <title>Test #4 Explore our products button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655115844' status='passed' stop='1666655118087'>
+            <name>Test #5 Header menu</name>
+            <title>Test #5 Header menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655118087' status='broken' stop='1666655134291'>
+            <name>Test #6 Try fo free button</name>
+            <title>Test #6 Try fo free button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4fb2d42c-1806-48e2-b2aa-f117a8dbb733-attachment.png' type='image/png' size='862646'/>
+            </attachments>
+            <failure>
+                <message>Can't call getValue on element with selector "#email" because element wasn't found</message>
+                <stack-trace>Error: Can't call getValue on element with selector "#email" because element wasn't found
+                    at implicitWait (C:\Users\User\Desktop\1\webdriverio-test\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\User\Desktop\1\webdriverio-test\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\User\Desktop\1\webdriverio-test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\User\Desktop\1\webdriverio-test\test\specs\HomePage.js:101:51)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666655134292' status='passed' stop='1666655138361'>
+            <name>Test #7 Start your free trial button</name>
+            <title>Test #7 Start your free trial button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655138361' status='failed' stop='1666655155338'>
+            <name>Test #8 Menu bar in phone size</name>
+            <title>Test #8 Menu bar in phone size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fdd2bd45-b16d-4892-a96f-8711e6ae764d-attachment.png' type='image/png' size='37422'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url containing
+                
+                Expected: "https://telnyx.com/products"
+                Received: "https://telnyx.com/"</message>
+                <stack-trace>Error: Expect window to have url containing
+                
+                Expected: "https://telnyx.com/products"
+                Received: "https://telnyx.com/"
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\1\webdriverio-test\test\specs\HomePage.js:130:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666655155338' status='passed' stop='1666655174870'>
+            <name>Test #9 Checking text in the h2 element</name>
+            <title>Test #9 Checking text in the h2 element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655174870' status='passed' stop='1666655182008'>
+            <name>Test #10 network button</name>
+            <title>Test #10 network button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655182008' status='passed' stop='1666655186021'>
+            <name>Test #11 SMS API</name>
+            <title>Test #11 SMS API</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655186021' status='passed' stop='1666655190032'>
+            <name>Test #12 Video API</name>
+            <title>Test #12 Video API</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655190032' status='passed' stop='1666655197365'>
+            <name>Test #13 learn more</name>
+            <title>Test #13 learn more</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655197366' status='passed' stop='1666655206637'>
+            <name>Test #14 Create a free trial account button</name>
+            <title>Test #14 Create a free trial account button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-106.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

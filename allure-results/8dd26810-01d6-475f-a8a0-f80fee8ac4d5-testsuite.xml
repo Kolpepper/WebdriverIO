@@ -1,0 +1,252 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666655029065' stop='1666655191097'>
+    <name>Test telnyx home page</name>
+    <title>Test telnyx home page</title>
+    <test-cases>
+        <test-case start='1666655029065' status='passed' stop='1666655032514'>
+            <name>Test #1 accept and close button</name>
+            <title>Test #1 accept and close button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655032515' status='passed' stop='1666655039169'>
+            <name>Test #2 Sing up button</name>
+            <title>Test #2 Sing up button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655039170' status='passed' stop='1666655045707'>
+            <name>Test #3 Talk to an expert button</name>
+            <title>Test #3 Talk to an expert button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655045707' status='passed' stop='1666655050786'>
+            <name>Test #4 Explore our products button</name>
+            <title>Test #4 Explore our products button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655050787' status='passed' stop='1666655058103'>
+            <name>Test #5 Header menu</name>
+            <title>Test #5 Header menu</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655058103' status='broken' stop='1666655076500'>
+            <name>Test #6 Try fo free button</name>
+            <title>Test #6 Try fo free button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ed2cabc6-963e-4267-80c9-68876d5c8ba0-attachment.png' type='image/png' size='737801'/>
+            </attachments>
+            <failure>
+                <message>Can't call getValue on element with selector "#email" because element wasn't found</message>
+                <stack-trace>Error: Can't call getValue on element with selector "#email" because element wasn't found
+                    at implicitWait (C:\Users\User\Desktop\1\webdriverio-test\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\User\Desktop\1\webdriverio-test\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\User\Desktop\1\webdriverio-test\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\User\Desktop\1\webdriverio-test\test\specs\HomePage.js:101:51)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666655076501' status='failed' stop='1666655096362'>
+            <name>Test #7 Start your free trial button</name>
+            <title>Test #7 Start your free trial button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='29452fca-a7fc-4ecd-bee4-ed2efb3b6bc2-attachment.png' type='image/png' size='80263'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url containing
+                
+                Expected: "sign-up"
+                Received: "https://telnyx.com/register"</message>
+                <stack-trace>Error: Expect window to have url containing
+                
+                Expected: "sign-up"
+                Received: "https://telnyx.com/register"
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\1\webdriverio-test\test\specs\HomePage.js:112:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666655096362' status='passed' stop='1666655106218'>
+            <name>Test #8 Menu bar in phone size</name>
+            <title>Test #8 Menu bar in phone size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655106218' status='passed' stop='1666655110536'>
+            <name>Test #9 Checking text in the h2 element</name>
+            <title>Test #9 Checking text in the h2 element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655110536' status='failed' stop='1666655129293'>
+            <name>Test #10 network button</name>
+            <title>Test #10 network button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ac208316-6503-49fa-a892-b347f4444ee5-attachment.png' type='image/png' size='80263'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url containing
+                
+                Expected: "sign-up"
+                Received: "https://telnyx.com/register"</message>
+                <stack-trace>Error: Expect window to have url containing
+                
+                Expected: "sign-up"
+                Received: "https://telnyx.com/register"
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\1\webdriverio-test\test\specs\HomePage.js:158:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666655129293' status='passed' stop='1666655133732'>
+            <name>Test #11 SMS API</name>
+            <title>Test #11 SMS API</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655133732' status='passed' stop='1666655139872'>
+            <name>Test #12 Video API</name>
+            <title>Test #12 Video API</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655139873' status='passed' stop='1666655172861'>
+            <name>Test #13 learn more</name>
+            <title>Test #13 learn more</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666655172862' status='failed' stop='1666655191097'>
+            <name>Test #14 Create a free trial account button</name>
+            <title>Test #14 Create a free trial account button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0091fd36-ff7a-4c08-a1e0-d4257263c1af-attachment.png' type='image/png' size='80263'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url containing
+                
+                Expected: "sign-up"
+                Received: "https://telnyx.com/register"</message>
+                <stack-trace>Error: Expect window to have url containing
+                
+                Expected: "sign-up"
+                Received: "https://telnyx.com/register"
+                    at Context.&lt;anonymous> (C:\Users\User\Desktop\1\webdriverio-test\test\specs\HomePage.js:201:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
